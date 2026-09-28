@@ -66,6 +66,7 @@ window.PORTFOLIO = {
       ],
       tags: ["Next.js", "Node.js", "Tailwind", "Redux", "Prisma", "SQL"],
       github: "https://github.com/Khushal-Narsaria/GoCart-Fullstack-E-Commerce-Website",
+      live: "https://khushal-narsaria.github.io/GoCart-Fullstack-E-Commerce-Website/",
     },
     {
       title: "Inventory & Order Management",
@@ -82,6 +83,7 @@ window.PORTFOLIO = {
       ],
       tags: ["ASP.NET Core", "C#", "EF Core", "SQL Server", "Vue.js"],
       github: "https://github.com/Khushal-Narsaria/Inventory-Order-Management-System",
+      live: "https://khushal-narsaria.github.io/Inventory-Order-Management-System/",
     },
     {
       title: "Meeting Assistant Agent",
@@ -113,6 +115,7 @@ window.PORTFOLIO = {
       ],
       tags: ["Python", "TensorFlow", "ResNet", "k-NN"],
       github: "https://github.com/Khushal-Narsaria/Fashion-Recommendation-System",
+      live: "https://khushal-narsaria.github.io/Fashion-Recommendation-System/",
     },
   ],
   skills: {
