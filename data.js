@@ -52,6 +52,23 @@ window.PORTFOLIO = {
   ],
   projects: [
     {
+      title: "DSP Toolkit & Spectrum Analyzer",
+      subtitle: "Signal processing library + interactive lab",
+      category: "DSP",
+      glyph: "∿",
+      colors: ["#4f46e5", "#0891b2"],
+      metric: { value: "34", label: "unit tests against theory" },
+      points: [
+        "Radix-2 FFT, windowed-sinc FIR design, decimation & interpolation, correlation.",
+        "AM/FM, ASK, BPSK and 16-QAM with Monte-Carlo BER vs theory.",
+        "FFT and swept-tuned spectrum analyzers, accurate to 0.1 dB.",
+        "C++17 core, MATLAB reference and an in-browser lab.",
+      ],
+      tags: ["C++17", "MATLAB", "FFT", "FIR", "Modulation"],
+      github: "https://github.com/Khushal-Narsaria/DSP-Toolkit-Spectrum-Analyzer",
+      live: "https://khushal-narsaria.github.io/DSP-Toolkit-Spectrum-Analyzer/",
+    },
+    {
       title: "GoCart",
       subtitle: "Full-stack e-commerce platform",
       category: "Full-Stack",
