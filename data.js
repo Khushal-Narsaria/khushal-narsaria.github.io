@@ -52,6 +52,23 @@ window.PORTFOLIO = {
   ],
   projects: [
     {
+      title: "Procurement Analytics & Supplier Scorecard",
+      subtitle: "Spend, suppliers, savings and reorder policy",
+      category: "Data",
+      glyph: "₹",
+      colors: ["#0f6b52", "#c98a12"],
+      metric: { value: "40%", label: "lower ordering + holding cost in a simulated backtest" },
+      points: [
+        "Spend analysis (Pareto, ABC) and a weighted supplier scorecard, with metrics written in SQL.",
+        "Runs on simulated data: 8,791 purchase-order lines, 40 suppliers, 120 materials.",
+        "Safety stock, reorder point and EOQ per material; policy held 50% less stock at a 99.4% fill rate.",
+        "Scorecard validated against hidden supplier behaviour; 9 tests in CI and a live dashboard.",
+      ],
+      tags: ["Python", "SQL", "pandas", "Supply chain", "Chart.js"],
+      github: "https://github.com/Khushal-Narsaria/Procurement-Analytics-Supplier-Scorecard",
+      live: "https://khushal-narsaria.github.io/Procurement-Analytics-Supplier-Scorecard/",
+    },
+    {
       title: "DSP Toolkit & Spectrum Analyzer",
       subtitle: "Signal processing library + interactive lab",
       category: "DSP",
