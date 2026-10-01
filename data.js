@@ -57,7 +57,7 @@ window.PORTFOLIO = {
       category: "Data",
       glyph: "£",
       colors: ["#2a78d6", "#1baf7a"],
-      metric: { value: "1.07M", label: "real retail transactions · 2-member team" },
+      metric: { value: "1.07M", label: "real retail transactions" },
       points: [
         "DuckDB warehouse (staging, star schema, marts) over two years of a UK online retailer's orders.",
         "12 automated data-quality checks; 22,523 duplicated source rows found and removed.",
@@ -65,8 +65,8 @@ window.PORTFOLIO = {
         "FastAPI service over the warehouse; 21 tests in CI and a live dashboard.",
       ],
       tags: ["Python", "SQL", "DuckDB", "scikit-learn", "FastAPI"],
-      github: "https://github.com/S-Harshni/Retail-Intelligence-Platform",
-      live: "https://s-harshni.github.io/Retail-Intelligence-Platform/",
+      github: "https://github.com/Khushal-Narsaria/Retail-Intelligence-Platform",
+      live: "https://khushal-narsaria.github.io/Retail-Intelligence-Platform/",
     },
     {
       title: "Procurement Analytics & Supplier Scorecard",
