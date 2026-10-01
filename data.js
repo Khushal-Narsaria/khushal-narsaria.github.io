@@ -52,6 +52,40 @@ window.PORTFOLIO = {
   ],
   projects: [
     {
+      title: "RAG Document QA",
+      subtitle: "Retrieval-augmented generation with evaluation and safety tests",
+      category: "AI / ML",
+      glyph: "?",
+      colors: ["#4a3aa7", "#2a78d6"],
+      metric: { value: "91.0%", label: "correct chunk in the top 5 · 10,570 questions" },
+      points: [
+        "Chunking, embeddings, a FAISS vector store, BM25 from scratch and hybrid retrieval.",
+        "Chunk-size trade-off and exact vs HNSW search measured on 10,570 questions.",
+        "Llama, Qwen and Gemma run locally; few-shot and chain-of-thought prompts; cited JSON answers.",
+        "Prompt-injection tests, hallucination checks, log redaction and a tool-using agent; 18 tests in CI.",
+      ],
+      tags: ["Python", "RAG", "FAISS", "LLMs", "Agents"],
+      github: "https://github.com/Khushal-Narsaria/RAG-Document-QA",
+      live: "https://khushal-narsaria.github.io/RAG-Document-QA/",
+    },
+    {
+      title: "Mini GPT From Scratch",
+      subtitle: "Transformer language model and BPE tokenizer",
+      category: "AI / ML",
+      glyph: "∑",
+      colors: ["#0d366b", "#eb6834"],
+      metric: { value: "940,800", label: "parameters · written and trained from scratch" },
+      points: [
+        "Decoder-only transformer with hand-written causal multi-head self-attention.",
+        "Byte-pair tokenizer from scratch (1,024 tokens), also running in the browser.",
+        "Training pipeline: AdamW, warm-up, cosine decay, gradient clipping.",
+        "Temperature, top-k and top-p sampling; attention visualised; 9 tests in CI.",
+      ],
+      tags: ["Python", "PyTorch", "Transformers", "BPE"],
+      github: "https://github.com/Khushal-Narsaria/Mini-GPT-From-Scratch",
+      live: "https://khushal-narsaria.github.io/Mini-GPT-From-Scratch/",
+    },
+    {
       title: "Retail Intelligence Platform",
       subtitle: "SQL warehouse, stock simulation and API",
       category: "Data",
@@ -151,6 +185,7 @@ window.PORTFOLIO = {
       ],
       tags: ["Python", "Agno", "LLMs", "Linear API", "Slack API", "Streamlit"],
       github: "https://github.com/Khushal-Narsaria/meeting_assistant_agent",
+      live: "https://khushal-narsaria.github.io/meeting_assistant_agent/",
     },
     {
       title: "Fashion Recommendation System",
@@ -170,6 +205,8 @@ window.PORTFOLIO = {
     },
   ],
   skills: {
+    "Generative AI": ["RAG", "Embeddings", "FAISS", "Agents (Agno)", "Prompt Engineering", "LLM Evaluation", "Llama · Qwen · Gemma"],
+    "Data Engineering": ["PySpark", "Delta Lake", "SQL warehouse", "Data-quality checks", "DuckDB"],
     Languages: ["JavaScript", "Python", "Java", "C#", "C++", "SQL / T-SQL"],
     Frontend: ["React.js", "Next.js", "Vue.js", "Tailwind CSS", "Redux Toolkit"],
     Backend: ["Node.js", "ASP.NET Core", "Spring Boot", "FastAPI", "REST API Design", "Prisma ORM"],
@@ -195,6 +232,8 @@ window.PORTFOLIO = {
   ],
   certsTitle: "Certifications & Achievements",
   certs: [
+    "AWS Certified Cloud Practitioner",
+    "Databricks Fundamentals · Databricks Generative AI Fundamentals",
     "Codefest Technical Hackathon — 2nd Place, SRM IST",
     "AWS Certified Developer – Associate",
     "Meta Back-End Developer Professional Certificate",
