@@ -64,7 +64,7 @@ window.PORTFOLIO = {
         "Stock simulation for 791 products: 5.9% less stock at a 90% fill rate with the model forecast.",
         "FastAPI service over the warehouse; 21 tests in CI and a live dashboard.",
       ],
-      tags: ["Python", "SQL", "DuckDB", "scikit-learn", "FastAPI"],
+      tags: ["Python", "SQL", "PySpark", "Delta Lake", "scikit-learn", "FastAPI"],
       github: "https://github.com/Khushal-Narsaria/Retail-Intelligence-Platform",
       live: "https://khushal-narsaria.github.io/Retail-Intelligence-Platform/",
     },
