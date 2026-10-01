@@ -89,37 +89,6 @@ window.PORTFOLIO = {
   ],
   "projects": [
     {
-      "title": "RAG Document QA",
-      "subtitle": "Retrieval-augmented question answering, measured end to end",
-      "category": "Generative AI",
-      "glyph": "?",
-      "colors": [
-        "#4a3aa7",
-        "#2a78d6"
-      ],
-      "featured": true,
-      "image": "assets/projects/rag.jpg",
-      "metric": {
-        "value": "91.0%",
-        "label": "right chunk in the top 5, over 10,570 questions"
-      },
-      "points": [
-        "Chunking, embeddings, a FAISS vector store, BM25 written from scratch and hybrid retrieval.",
-        "Chunk-size trade-off and exact vs approximate search measured on 10,570 questions.",
-        "Three open-source LLMs run locally with few-shot and chain-of-thought prompts and cited JSON answers.",
-        "Prompt-injection tests, hallucination checks, log redaction and a tool-using agent; 18 tests in CI."
-      ],
-      "tags": [
-        "Python",
-        "RAG",
-        "FAISS",
-        "LLMs",
-        "Agents"
-      ],
-      "github": "https://github.com/Khushal-Narsaria/RAG-Document-QA",
-      "live": "https://khushal-narsaria.github.io/RAG-Document-QA/"
-    },
-    {
       "title": "Retail Intelligence Platform",
       "subtitle": "A SQL warehouse you can question in plain English",
       "category": "Data + GenAI",
@@ -150,6 +119,37 @@ window.PORTFOLIO = {
       ],
       "github": "https://github.com/Khushal-Narsaria/Retail-Intelligence-Platform",
       "live": "https://khushal-narsaria.github.io/Retail-Intelligence-Platform/#ask-the-data"
+    },
+    {
+      "title": "RAG Document QA",
+      "subtitle": "Retrieval-augmented question answering, measured end to end",
+      "category": "Generative AI",
+      "glyph": "?",
+      "colors": [
+        "#4a3aa7",
+        "#2a78d6"
+      ],
+      "featured": true,
+      "image": "assets/projects/rag.jpg",
+      "metric": {
+        "value": "91.0%",
+        "label": "right chunk in the top 5, over 10,570 questions"
+      },
+      "points": [
+        "Chunking, embeddings, a FAISS vector store, BM25 written from scratch and hybrid retrieval.",
+        "Chunk-size trade-off and exact vs approximate search measured on 10,570 questions.",
+        "Three open-source LLMs run locally with few-shot and chain-of-thought prompts and cited JSON answers.",
+        "Prompt-injection tests, hallucination checks, log redaction and a tool-using agent; 18 tests in CI."
+      ],
+      "tags": [
+        "Python",
+        "RAG",
+        "FAISS",
+        "LLMs",
+        "Agents"
+      ],
+      "github": "https://github.com/Khushal-Narsaria/RAG-Document-QA",
+      "live": "https://khushal-narsaria.github.io/RAG-Document-QA/"
     },
     {
       "title": "Meeting Assistant Agent",
