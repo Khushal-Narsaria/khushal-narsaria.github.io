@@ -89,6 +89,38 @@ window.PORTFOLIO = {
   ],
   "projects": [
     {
+      "title": "Medicare Fraud Detection",
+      "subtitle": "Which prescribers should a fraud reviewer look at first?",
+      "category": "Healthcare ML",
+      "glyph": "Rx",
+      "colors": [
+        "#0f6b52",
+        "#2a78d6"
+      ],
+      "featured": true,
+      "image": "assets/projects/medicare.jpg",
+      "metric": {
+        "value": "24x",
+        "label": "more later-excluded prescribers in the top 1% of the list than a random review (ROC AUC 0.86)"
+      },
+      "points": [
+        "Ranks 1.1M Medicare Part D prescribers from public CMS data, tested against who the HHS Inspector General later excluded.",
+        "Ensemble chosen on 2016 validation, tested on other prescribers in 2017: top 1% finds 21 of 86 later-excluded (24x random).",
+        "Strongest warning: prescribing that collapses 80%+ in a year (10x exclusion rate); state removed, which was fairer and more accurate.",
+        "LLM analyst notes checked by code, FastAPI, and the model running in the page to score any prescriber; 8 tests in CI."
+      ],
+      "tags": [
+        "Python",
+        "scikit-learn",
+        "FastAPI",
+        "LLMs",
+        "JavaScript",
+        "Healthcare data"
+      ],
+      "github": "https://github.com/Khushal-Narsaria/Medicare-Fraud-Detection",
+      "live": "https://khushal-narsaria.github.io/Medicare-Fraud-Detection/"
+    },
+    {
       "title": "Retail Intelligence Platform",
       "subtitle": "A SQL warehouse you can question in plain English",
       "category": "Data + GenAI",
